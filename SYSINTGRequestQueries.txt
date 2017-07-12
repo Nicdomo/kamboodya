@@ -1,0 +1,5 @@
+1-- SELECT * FROM students GROUP BY birthday; SELECT * FROM students GROUP BY university;
+
+2-- SELECT * FROM students ORDER BY surname ASC; SELECT * FROM students ORDER BY surname DESC;
+
+3-- U.name AS "University Name", SELECT COUNT(*) AS "Number Of Students/Voters" FROM students S JOIN universities U ON S.university = U.idUniversities WHERE U.university = <id of the university>;
