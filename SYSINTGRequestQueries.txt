@@ -1,4 +1,4 @@
-1-- SELECT * FROM students GROUP BY birthday; SELECT * FROM students GROUP BY university;
+1-- SELECT * FROM students WHERE (YEAR(CURDATE())-YEAR(birthday) = <givenAge> AND university = <givenUniversityId>;
 
 2-- SELECT * FROM students ORDER BY surname ASC; SELECT * FROM students ORDER BY surname DESC;
 
